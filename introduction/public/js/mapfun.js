@@ -13,6 +13,5 @@ function draw() {
   background(r, 0, b);
   ellipseMode(CENTER);
   noStroke();
-  fill(255);
-  circle(mouseX, windowHeight / 2, 30);
+  fill(255); circle(mouseX, windowHeight / 2, 30);
 }
